@@ -41,10 +41,12 @@ RakshaSetu solves this by enabling fast internal emergency response with AI-assi
 ### Platform Features
 - Firebase Authentication
 - Firestore Realtime Database
-- Push Notifications
+- Real-time Notifications
 - Multi-role login system
 - Scalable architecture for any organization
 
+  
+Firebase Functions scaffold included for production push notifications.
 ---
 
 ## Tech Stack
