@@ -306,7 +306,7 @@ class _LoginScreenState
                       height: 18),
 
                   Text(
-                    'SanketX Emergency',
+                    'RakshaSetu Emergency',
                     style: Theme.of(
                             context)
                         .textTheme
@@ -422,7 +422,7 @@ class _LoginScreenState
                                 color: Colors.white,
                               )
                             : Text(
-                                'Login as $selectedRole',
+                                'Login ',
                               ),
                       ),
                     ),
