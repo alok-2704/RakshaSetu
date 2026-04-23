@@ -21,8 +21,20 @@
   },
   "functions": [
     {
-      "source": "functions",
       "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "source": "functions"
+    },
+    {
+      "source": "rakshasetu",
+      "codebase": "rakshasetu",
       "disallowLegacyRuntimeConfig": true,
       "ignore": [
         "node_modules",

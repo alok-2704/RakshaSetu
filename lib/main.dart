@@ -128,6 +128,13 @@ Future<void> saveDeviceToken() async {
     'fcmToken': token,
   });
 }
+Future<void> _firebaseMessagingBackgroundHandler(
+  RemoteMessage message,
+) async {
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+}
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -135,12 +142,21 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  FirebaseMessaging.onBackgroundMessage(
+  _firebaseMessagingBackgroundHandler,
+);
   await setupNotifications();
+  FirebaseMessaging.onMessageOpenedApp.listen((
+  RemoteMessage message,
+) {
+  // Navigate if needed
+});
 
   await loadUserTheme();
 
   runApp(const RakshaSetuApp());
 }
+
 
 class RakshaSetuApp extends StatelessWidget{
  const RakshaSetuApp({super.key});
