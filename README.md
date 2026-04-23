@@ -62,8 +62,8 @@ Firebase Functions scaffold included for production push notifications.
 ## Demo Credentials
 
 ### User Login
-Email: user@demo.com  
-Password: 123456
+Email: student@demo.com  
+Password: student1
 
 ### Fire Department
 Email: fire@demo.com  
@@ -71,11 +71,11 @@ Password: 123456
 
 ### Medical Department
 Email: medical@demo.com  
-Password: 123456
+Password: 789101
 
 ### Security Department
 Email: security@demo.com  
-Password: 123456
+Password: 654321
 
 ---
 
