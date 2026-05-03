@@ -41,10 +41,12 @@ RakshaSetu solves this by enabling fast internal emergency response with AI-assi
 ### Platform Features
 - Firebase Authentication
 - Firestore Realtime Database
-- Push Notifications
+- Real-time Notifications
 - Multi-role login system
 - Scalable architecture for any organization
 
+  
+Firebase Functions scaffold included for production push notifications.
 ---
 
 ## Tech Stack
@@ -60,8 +62,8 @@ RakshaSetu solves this by enabling fast internal emergency response with AI-assi
 ## Demo Credentials
 
 ### User Login
-Email: user@demo.com  
-Password: 123456
+Email: student@demo.com  
+Password: student1
 
 ### Fire Department
 Email: fire@demo.com  
@@ -69,11 +71,11 @@ Password: 123456
 
 ### Medical Department
 Email: medical@demo.com  
-Password: 123456
+Password: 789101
 
 ### Security Department
 Email: security@demo.com  
-Password: 123456
+Password: 654321
 
 ---
 
